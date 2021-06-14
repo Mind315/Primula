@@ -1,0 +1,112 @@
+a {
+  color: #3e4145;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.header-top {
+  width: 100%;
+  background-color: #6d7831;
+  height: 37px;
+}
+.header-top a {
+  padding: 5px 10px;
+  color: white;
+}
+.header-top a:hover {
+  background-color: #869538;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.header-top__view {
+  position: relative;
+  top: 5px;
+}
+.header-top .header-top__menu {
+  max-width: 800px;
+  width: 100%;
+}
+.header-top .header-top__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.header-top .header-top__box .header-top__for-blind {
+  white-space: nowrap;
+}
+.header-top .header-top__box .header-top__for-blind-text {
+  line-height: 200%;
+}
+.header-top .header-top__box .header-top__list {
+  display: flex;
+}
+.header-top .header-top__box .header-top__list .header-top__item {
+  padding-left: 3vw;
+}
+.header-top .header-top__box .header-top__list .header-top__item:first-child {
+  padding-left: 0;
+}
+
+.header {
+  height: 140px;
+}
+.header__phone {
+  font-size: 26px;
+  font-weight: 600;
+  color: #626159;
+}
+.header__link:hover {
+  color: #869538;
+}
+.header__btn {
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: #dca41e;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.header__block-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__block-top .header__social {
+  display: flex;
+}
+.header__block-top .header__social .header__item:last-child {
+  padding-left: 20px;
+}
+
+.header__block-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__block-bottom .header__menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+}
+.header__block-bottom .header__menu .header__list {
+  width: 100%;
+  display: flex;
+}
+.header__block-bottom .header__menu .header__list .header__item {
+  padding-left: 3vw;
+}
+.header__block-bottom .header__menu .header__list .header__item:first-child {
+  padding-left: 0;
+}

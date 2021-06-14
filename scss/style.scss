@@ -1,0 +1,120 @@
+$dark-green: #6d7831;
+$yellow: #dca41e;
+$font-color: #626159;
+$footer-color: #3e4145;
+
+a {
+  color: $footer-color;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+// ----------------------HEADER-TOP---------------------------
+.header-top {
+  & a {
+    padding: 5px 10px;
+    color: white;
+    &:hover {
+      background-color: #869538;
+      padding: 5px 10px;
+      border-radius: 15px;
+    }
+  }
+  width: 100%;
+  background-color: $dark-green;
+  height: 37px;
+  &__view {
+    position: relative;
+    top: 5px;
+  }
+  .header-top__menu {
+    max-width: 800px;
+    width: 100%;
+  }
+  .header-top__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    .header-top__for-blind {
+      white-space: nowrap;
+      &-text {
+        line-height: 200%;
+      }
+    }
+    .header-top__list {
+      display: flex;
+
+      .header-top__item {
+        padding-left: 3vw;
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.header {
+  height: 140px;
+  &__phone {
+    font-size: 26px;
+    font-weight: 600;
+    color: $font-color;
+  }
+  &__link:hover {
+    color: #869538;
+  }
+  &__btn {
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #dca41e;
+
+    color: white;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }
+}
+.header__block-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header__social {
+    display: flex;
+    .header__item:last-child {
+      padding-left: 20px;
+    }
+  }
+}
+
+.header__block-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+    .header__list {
+      width: 100%;
+      display: flex;
+      .header__item {
+        padding-left: 3vw;
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
