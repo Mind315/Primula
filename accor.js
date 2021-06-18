@@ -1,12 +1,18 @@
-'use strict';
+"use strict";
 
-const accordion = document.querySelectorAll(".accordion");
-console.log(accordion);
+let accordionItems = document.querySelectorAll(".detail");
 
-accordion.forEach((item) => {
-  item.addEventListener("click", function () {
-    this.classList.toggle("active");
-    let panel = this.nextElementSibling;
-    panel.style.height? (panel.style.height = null) : (panel.style.height = `${panel.scrollHeight}px`);
+accordionItems.forEach((item) => {
+  const but = item.querySelector(".detail__but");
+
+  but.addEventListener("click", function () {
+    if (item.classList.contains("active")) {
+      item.classList.remove("active");
+    } else {
+      accordionItems.forEach(function (i) {
+        i.classList.remove("active");
+      });
+      item.classList.add("active");
+    }
   });
 });
