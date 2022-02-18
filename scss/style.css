@@ -730,6 +730,10 @@ li {
   border-radius: 50%;
   border: 2px solid white;
   background-color: #3e4145;
+  transition: .5s;
+}
+.footer__arrow:hover {
+  border: 2px solid #DCA41E;
 }
 .footer__arrow::after {
   display: block;
