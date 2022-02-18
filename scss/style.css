@@ -79,9 +79,7 @@ li {
 .header-top .header-top__box .header-top__list .header-top__item:not(:first-child) {
   margin-left: 40px;
 }
-.header-top .header-top__box .header-top__list .header-top__item:first-child a {
-  padding-left: 0;
-}
+
 
 .header__logo-image {
   width: 100%;
