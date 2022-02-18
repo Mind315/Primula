@@ -731,6 +731,7 @@ li {
   border: 2px solid white;
   background-color: #3e4145;
   transition: .5s;
+  cursor: pointer;
 }
 .footer__arrow:hover {
   border: 2px solid #DCA41E;
