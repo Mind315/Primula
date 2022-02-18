@@ -860,6 +860,9 @@ li {
 .collectiv__item a {
   position: relative;
 }
+.collectiv__item a:hover {
+  color: #d1bd22;
+}
 .collectiv__item a::after {
   content: "";
   width: 100%;
