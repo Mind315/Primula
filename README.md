@@ -17,3 +17,4 @@ html scss native javascript
 https://github.com/Mind315/Primula/blob/master/main.js
 
 3. Аккордеон на странице Коллектив - так же написан самостоятельно с использованием JS.
+https://github.com/Mind315/Primula/blob/master/accor.js
